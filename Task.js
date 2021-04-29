@@ -6,8 +6,8 @@ export default function Task() {
   const inputRef = useRef();
   const scrollRef = useRef();
 
-  const scrollTo = (ele) => {
-    ele.scrollIntoView({
+  const scrollTo = (element) => {
+    element.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
