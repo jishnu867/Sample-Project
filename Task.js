@@ -39,7 +39,7 @@ export default function Task() {
         {list.map((item, key) => {
           return (
             <>
-              <li className="list-element" key={key}>
+              <li key={key}>
                 {item}
               </li>
             </>
